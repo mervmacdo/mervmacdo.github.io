@@ -1,7 +1,32 @@
 <!--index.html-->
 
-<!--Embed the header.html template at this location-->
-{{ template "header.html" .}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="treeantdesign.com">
+	<meta name="description" content="Bulma Hotel is a business hotel with unmatched hospitality, convenience &amp; comforts. Bulma Hotel is an ideal choice for your stay. Whether business trip or just a weekend leisure.">
+	<meta name="keywords" content="banaue rice terraces, ifugao, hotel, inn, lodge, stay, rooms, visit, mountain">
+	<title>Luckystar Hotel-Lodge</title>
+	<link rel="icon" href="/assets/images/favicon.svg">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" integrity="sha256-D9M5yrVDqFlla7nlELDaYZIpXfFWDytQtiV+TaH6F1I=" crossorigin="anonymous">
+	<link rel="stylesheet" href="/assets/stylesheets/hotel.css">
+	<script defer src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  		crossorigin="anonymous"></script>
+ 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+	<script defer src="/assets/js/hotel.js"></script>
+</head>
+<body class="layout-default">
+  <section class="hero main_hero is-fullheight">
+		<div class="hero-head">
 
   <!-- start of body -->
 
@@ -294,8 +319,47 @@
 
   <!-- end of body -->
 
-<!--Embed the footer.html template at this location-->
-{{ template "footer.html" .}}  
+  <!-- Footer Section -->
+  <footer class="hero">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-6" style="text-align: center;">
+                    <div class="content">
+                        <div>
+                            <h6 class="footer_title title is-6">SOCIAL MEDIA</h6>
+                            <p>Follow us on social media</p>
+
+                            <button class="facebook-button button is-medium"><i class="fab fa-facebook-f"></i></button>
+                            <!-- <button class="twitter-button button is-medium"><i class="fab fa-twitter"></i></button>
+                            <button class="google-button button is-medium"><i class="fab fa-google-plus-g"></i></button>
+                            <button class="linkedin-button button is-medium"><i class="fab fa-linkedin-in"></i></button> -->
+
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-6" style="text-align: center;">
+                    <div class="content">
+                        <h6 class="footer_title title is-6">ADDRESS</h6>
+                        <p>Reach us safely</p>
+
+                        <p>Ulo, Hucab, Kiagan, Ifugao 3604</p>
+
+                        <div>
+                            <i class="fa fa-phone"></i> &nbsp;
+                            <span>Mobile Number</span> &nbsp;
+                            <a href="tel:+639175041359">+63 917 5041359</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div align="center">
+                &copy; 2020, Luckystar Hotel-Lodge. All rights reserved.<br>
+                <a href="https://treeantdesign.com" style="color:rgb(163, 163, 163);">Designed and maintained by treeantdesign.com</a>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>
